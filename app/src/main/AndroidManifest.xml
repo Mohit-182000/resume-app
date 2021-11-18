@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.resume">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/resume"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/resume"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Resume">
+        <activity
+            android:name=".ResumeProjectsDetail"
+            android:exported="true" />
+        <activity
+            android:name=".ResumeObjectiveDetail"
+            android:exported="true" />
+        <activity
+            android:name=".ResumeSkillDetail"
+            android:exported="true" />
+        <activity
+            android:name=".ResumeExperienceDetail"
+            android:exported="true" />
+        <activity
+            android:name=".ResumeEducationDetail"
+            android:exported="true" />
+        <activity
+            android:name=".ResumePersonalDetail"
+            android:exported="true" />
+        <activity
+            android:name=".ResumeCreate"
+            android:exported="true" />
+        <activity
+            android:name=".ResumeDetail"
+            android:exported="true" />
+        <activity
+            android:name=".ResumeHome"
+            android:exported="true" />
+        <activity
+            android:name=".DownloadedResume"
+            android:exported="true" />
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>
